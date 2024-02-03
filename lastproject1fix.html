@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+ 
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.item1 {
+  grid-column: 1 /  2;
+}
+</style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Profile</h1>
+    </div>
+
+<div class="grid-container">
+  <div class="item1">
+    <img src="https://cdn.discordapp.com/attachments/1119861386382671954/1196703368308064296/1705338342599.jpg?ex=65b897dc&is=65a622dc&hm=5497bcddc155df36772a6d31bdfff2e82c930da2a59ac5a5733f50d3219ac192&">
+  </div>
+  <div class="item2">
+    <h2>Personal Information</h2>
+    <p>ชื่อ : เมธาพร กิตติวัณณะกุล (เมย์)</p>
+    <p>อายุ : 14 ปี</p>
+    <p>วันเกิด : 10 พฤษภาคม 2552</p>
+    <p>สัญชาติ : ไทย</p>
+    <p>ศาสนา : พุทธ</p>
+    <p>ที่อยู่ : XX</p>
+    <p>งานอดิเรก : แก้ซูโดกุ เล่นรูบิค วาดรูป</p>
+    <p>บิดา : นายมงคล กิตติวัณณะกุล</p>
+    <P>มารดา : นางนวรัตน์ ณัฐชาคร</P>
+  </div>
+<style>
+    .item2{
+        display: grid;
+        p {
+  font-size: 20px;
+  gap: 10px;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+    }
+    body {
+      background-image: url(https://i.pinimg.com/originals/36/30/00/363000c1b5735897d229b4d3f2504126.jpg);
+    }
+    h1{
+      background-color: rgb(255, 160, 122);
+      margin: 0;
+      padding: 0;
+      grid-template-columns: 10px;
+     
+    }
+</style>
+</div>
+
+</body>
+</html>
